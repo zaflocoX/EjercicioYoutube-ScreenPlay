@@ -1,25 +1,26 @@
 package co.falabella.com.task;
 
-import co.falabella.com.interactions.ProductoAleatorio;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
 
-import static co.falabella.com.ui.ListaDeProductosUI.BTN_COOKIES;
+import static co.falabella.com.ui.CarritoComprasUI.BTN_AGREGAR_PRODUCTO;
+import static co.falabella.com.ui.CarritoComprasUI.BTN_IR_CARRITO;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class ListaDeProductosTask implements Task {
-
+public class CarritoComprasTask implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
+
         actor.attemptsTo(
-                Click.on(BTN_COOKIES),
-                ProductoAleatorio.elegirProducto()
+                Click.on(BTN_AGREGAR_PRODUCTO),
+                Click.on(BTN_IR_CARRITO)
         );
     }
-
-    public static Performable clickProducto(){
-        return instrumented(ListaDeProductosTask.class);
+    public static Performable agregarCarrito(){
+        return instrumented(CarritoComprasTask.class);
     }
+
+
 }

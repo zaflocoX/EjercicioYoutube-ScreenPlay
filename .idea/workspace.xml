@@ -5,22 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01133c34-6b83-476d-9ac5-f75d0143dca2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/utils/Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/falabella/com/runners/AgregarProductoRunners.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/co/falabella/com/stepDefinitions/AgregarProductoSD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/AgregarProducto.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/serenity.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/task/CarritoComprasTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/task/ProductoTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/CarritoComprasUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/ProductoUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/ProductoAleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/ProductoAleatorio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/task/ListaDeProductosTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/task/ListaDeProductosTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/ListaDeProductosUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/ListaDeProductosUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/co/falabella/com/stepDefinitions/AgregarProductoSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/falabella/com/stepDefinitions/AgregarProductoSD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/data/Data.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/data/Data.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AgregarProducto.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AgregarProducto.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,15 +60,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "G:/Semillero SQA/PROYECTOS/SCREENPLAY/EjercicioScreenPlayGlobalQAutomation"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/Semillero SQA/PROYECTOS/SCREENPLAY/Reto-ScreenPlay-Falabella/src/main/java/co/falabella/com/utils&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Semillero SQA\PROYECTOS\SCREENPLAY\Reto-ScreenPlay-Falabella\src\main\java\co\falabella\com\utils" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Semillero SQA\PROYECTOS\SCREENPLAY\Reto-ScreenPlay-Falabella\src\test\resources" />
       <recent name="G:\Semillero SQA\PROYECTOS\SCREENPLAY\Reto-ScreenPlay-Falabella\src\main\java\co\falabella\com\utils" />
     </key>
   </component>

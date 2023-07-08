@@ -6,5 +6,5 @@
 
    Escenario: Agregar producto al carro de compras exitosamente
      Dado el usuario ingresa a la pagina de falabella
-     Cuando busca un producto y cantidad de su preferencia
-     Entonces puede agregar el producto al carro de compras
+     Cuando busca y selecciona un producto y cantidad de su preferencia
+     Entonces agrega el producto al carro de compras valida el nombre y la cantidad seleccionada

@@ -4,11 +4,8 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.Performable;
-import net.serenitybdd.screenplay.targets.Target;
-
 import java.util.List;
 import java.util.Random;
-
 import static co.falabella.com.ui.ListaDeProductosUI.LBL_LISTA_PRODUCTOS;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 

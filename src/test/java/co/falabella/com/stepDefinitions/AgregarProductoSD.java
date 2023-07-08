@@ -1,11 +1,11 @@
 package co.falabella.com.stepDefinitions;
 
+import co.falabella.com.task.CarritoComprasTask;
 import co.falabella.com.task.InicioTask;
 import co.falabella.com.task.ListaDeProductosTask;
-import co.falabella.com.ui.InicioUI;
+import co.falabella.com.task.ProductoTask;
 import io.cucumber.java.Before;
 import io.cucumber.java.es.*;
-import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.actions.Open;
 import net.serenitybdd.screenplay.actors.OnlineCast;
 
@@ -19,6 +19,8 @@ public class AgregarProductoSD {
     public void setStage(){
         setTheStage(new OnlineCast());
     }
+
+
     @Dado("el usuario ingresa a la pagina de falabella")
     public void elUsuarioIngresaALaPaginaDeFalabella() {
         theActorCalled("Usuario").wasAbleTo(
@@ -26,18 +28,24 @@ public class AgregarProductoSD {
         );
 
     }
-    @Cuando("busca un producto y cantidad de su preferencia")
+    @Cuando("busca y selecciona un producto y cantidad de su preferencia")
     public void buscaUnProductoYCantidadDeSuPreferencia() {
         theActorInTheSpotlight().attemptsTo(
                 InicioTask.fromInicio(),
-                ListaDeProductosTask.clickProducto()
+                ListaDeProductosTask.clickProducto(),
+                ProductoTask.clickCantidad()
+
+
         );
     }
-    @Entonces("puede agregar el producto al carro de compras")
-    public void puedeAgregarElProductoAlCarroDeCompras() {
+    @Entonces("agrega el producto al carro de compras valida el nombre y la cantidad seleccionada")
+public void agregaElProductoAlCarroDeComprasValidaElNombreYLaCantidadSeleccionada() {
+        theActorInTheSpotlight().attemptsTo(
+                CarritoComprasTask.agregarCarrito()
+        );
+
 
     }
-
 
 
 }
