@@ -3,9 +3,11 @@ package co.falabella.com.ui;
 import net.serenitybdd.screenplay.targets.Target;
 
 public class CarritoComprasUI {
+    public static final Target NOMBRE_VISTA_DETALLECARRO = Target.the("Nombre detalles carrito")
+            .locatedBy("//p[@data-testid='name']");
+    public static final Target CANTIDAD_VISTA_DETALLESCARRO = Target.the("Agrega el producto a carrito")
+            .locatedBy("//input[@class='chakra-input css-1hzo6s2']");
 
-    public static final Target BTN_AGREGAR_PRODUCTO = Target.the("Agrega el producto a carrito")
-            .locatedBy("//button[@id='add-to-cart-button']");
-    public static final Target BTN_IR_CARRITO = Target.the("Ir al carrito")
-            .locatedBy("//a[@id='linkButton']");
 }
+
+

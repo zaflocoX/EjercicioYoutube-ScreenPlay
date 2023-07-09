@@ -17,6 +17,8 @@ public class ProductoAleatorio implements Interaction {
 
         Random random = new Random();
         int listaProductosRandom = random.nextInt(listaProductos.size());
+
+        //String nombreProducto = listaProductos.get(listaProductosRandom).getText();
         listaProductos.get(listaProductosRandom).click();
     }
 
