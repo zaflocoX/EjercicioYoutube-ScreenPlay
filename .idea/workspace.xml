@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01133c34-6b83-476d-9ac5-f75d0143dca2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/DetallesInteraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/NombrePSeleccionado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/questions/ValidacionCantidadProducto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/questions/ValidacionNombreProducto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/ProductoAleatorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/interactions/ProductoAleatorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/task/CarritoComprasTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/task/ProductoTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/task/ProductoTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/CarritoComprasUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/CarritoComprasUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/ProductoUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/co/falabella/com/ui/ProductoUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/falabella/com/runners/AgregarProductoRunners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/falabella/com/runners/AgregarProductoRunners.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/co/falabella/com/stepDefinitions/AgregarProductoSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/co/falabella/com/stepDefinitions/AgregarProductoSD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

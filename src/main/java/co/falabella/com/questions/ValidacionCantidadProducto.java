@@ -9,7 +9,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Map;
 
-import static co.falabella.com.ui.ProductoUI.LBL_CANTIDAD_PRODUCTO;
 
 public class ValidacionCantidadProducto implements Question<Boolean> {
     private  static ArrayList<Map<String, String>> data= new ArrayList<>();
